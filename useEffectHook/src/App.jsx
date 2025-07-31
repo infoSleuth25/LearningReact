@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import LoggerComponent from './components/LoggerComponent'
+import Resize from './components/Resize'
 
 const App = () => {
   // const [count,setCount] = useState(0);
@@ -39,6 +40,8 @@ const App = () => {
   //     alert('Count is unmounted from the UI');
   //   }
   // },[count]);
+
+  
   
   return (
     <div>
@@ -47,7 +50,8 @@ const App = () => {
       <button onClick={handleClick2}>Click me 2 </button>
       <p>current count 2 = {count2}</p> */}
 
-      <LoggerComponent />
+      {/* <LoggerComponent /> */}
+      {/* <Resize /> */}
     </div>
   )
 }
